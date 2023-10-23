@@ -1,0 +1,19 @@
+/* colori */
+
+:root {
+  --ag-bg-darkblue: #2c3e50;
+  --ag-bg-lightblue: #1abc9c;
+  --ag-bg-darkpurple: #3a546d;
+}
+
+.ag-bg-darkblue {
+  background-color: var(--ag-bg-darkblue);
+}
+
+.ag-bg-lightblue {
+  background-color: var(--ag-bg-lightblue);
+}
+
+.ag-bg-darkpurple {
+  background-color: var(--ag-bg-darkpurple);
+}
