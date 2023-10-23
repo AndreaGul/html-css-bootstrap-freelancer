@@ -17,3 +17,7 @@
 .ag-bg-darkpurple {
   background-color: var(--ag-bg-darkpurple);
 }
+
+.ag-txt-color-white {
+  color: white;
+}
