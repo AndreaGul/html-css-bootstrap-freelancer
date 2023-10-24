@@ -1,0 +1,31 @@
+/* spacer con elmento al centro */
+
+.jumbotron .spacer-star {
+  position: relative;
+}
+
+.jumbotron .spacer-star::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 5px;
+  width: 75px;
+  border-radius: 4px;
+  top: 50%;
+  left: 0;
+  transform: translatex(-100px);
+  background-color: white;
+}
+
+.jumbotron .spacer-star::after {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 5px;
+  width: 75px;
+  border-radius: 4px;
+  top: 50%;
+  right: 0;
+  transform: translatex(+100px);
+  background-color: white;
+}

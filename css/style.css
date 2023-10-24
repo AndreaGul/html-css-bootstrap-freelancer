@@ -2,4 +2,23 @@
 
 @import url('_partials/variables.css');
 
+@import url('components/spacer-after-before.css');
+
 /* /imports */
+
+/* **main** */
+
+.jumbotron .avatar-img {
+  width: 280px;
+}
+
+.jumbotron .avatar-img img {
+  width: 100%;
+  display: block;
+}
+
+.jumbotron h1 {
+  font-size: 50px;
+}
+
+/* ** /main** */
