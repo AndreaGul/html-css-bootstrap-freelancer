@@ -4,6 +4,11 @@
   background-color: var(--ag-bg-darkblue);
 }
 
+.ag-txt-darkblue {
+  --ag-txt-darkblue: #2c3e50;
+  color: var(--ag-txt-darkblue);
+}
+
 .ag-bg-lightblue {
   --ag-bg-lightblue: #1abc9c;
   background-color: var(--ag-bg-lightblue);

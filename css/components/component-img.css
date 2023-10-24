@@ -1,0 +1,13 @@
+/* *Component Image* */
+
+.component-img {
+  --ag-component-img-radius: 20px;
+  overflow: hidden;
+  border-radius: var(--ag-component-img-radius);
+}
+
+.component-img img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

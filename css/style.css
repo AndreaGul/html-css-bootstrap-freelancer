@@ -4,10 +4,13 @@
 
 @import url('components/spacer-after-before.css');
 
+@import url('components/component-img.css');
+
 /* /imports */
 
 /* **main** */
 
+/* *jumbotron* */
 .jumbotron .avatar-img {
   width: 280px;
 }
@@ -21,4 +24,10 @@
   font-size: 50px;
 }
 
-/* ** /main** */
+/* * /jumbotron * */
+
+.portfolio .content {
+  background-color: red;
+}
+
+/* ** /main ** */
