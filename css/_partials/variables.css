@@ -28,3 +28,8 @@
   --ag-txt-green: #1abc9c;
   color: var(--ag-txt-green);
 }
+
+.ag-bg-lightgreen {
+  --ag-bg-lightgreen: #1abc9c;
+  background-color: var(--ag-bg-lightgreen);
+}
