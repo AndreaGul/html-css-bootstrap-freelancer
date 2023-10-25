@@ -30,4 +30,23 @@
   background-color: red;
 }
 
+.circle-around {
+  position: relative;
+  background-color: red;
+}
+
+.circle-around::before {
+  position: absolute;
+  content: '';
+  display: inline-block;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+
+  border: currentColor solid 2px;
+}
+
 /* ** /main ** */

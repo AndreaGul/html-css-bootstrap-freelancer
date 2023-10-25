@@ -18,3 +18,8 @@
   --ag-bg-darkpurple: #3a546d;
   background-color: var(--ag-bg-darkpurple);
 }
+
+.ag-txt-green {
+  --ag-txt-green: #1abc9c;
+  color: var(--ag-txt-green);
+}
