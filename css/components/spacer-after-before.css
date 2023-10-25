@@ -1,31 +1,23 @@
 /* spacer con elmento al centro */
 
 .spacer-star {
-  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.spacer-star::before {
-  position: absolute;
-  content: '';
-  display: inline-block;
-  height: 5px;
-  width: 75px;
-  border-radius: 4px;
-  top: 50%;
-  left: 0;
-  transform: translatex(-100px);
-  background-color: currentColor;
-}
+/* .spacer-star:nth-child(1) {
+  padding: 0 20px;
+} */
 
+.spacer-star::before,
 .spacer-star::after {
-  position: absolute;
   content: '';
-  display: inline-block;
+
   height: 5px;
-  width: 75px;
+  width: 20%;
+  max-width: 150px;
   border-radius: 4px;
-  top: 50%;
-  right: 0;
-  transform: translatex(+100px);
+
   background-color: currentColor;
 }

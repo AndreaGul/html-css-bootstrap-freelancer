@@ -19,6 +19,11 @@
   background-color: var(--ag-bg-darkpurple);
 }
 
+.ag-txt-blackish {
+  --ag-txt-blackish: #333333;
+  color: var(--ag-txt-blackish);
+}
+
 .ag-txt-green {
   --ag-txt-green: #1abc9c;
   color: var(--ag-txt-green);
