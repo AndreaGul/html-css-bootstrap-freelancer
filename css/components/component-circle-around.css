@@ -1,0 +1,14 @@
+/* circle around */
+
+.circle-around {
+  --size: 3.4375rem;
+  display: inline-block;
+  height: var(--size);
+  width: var(--size);
+  border-radius: 50%;
+
+  text-align: center;
+  line-height: 53px;
+  border: currentColor solid 1px;
+  font-size: 1.3rem;
+}

@@ -6,6 +6,8 @@
 
 @import url('components/component-img.css');
 
+@import url('components/component-circle-around.css');
+
 /* /imports */
 
 /* **main** */
@@ -24,24 +26,6 @@
 
 .portfolio .content {
   background-color: red;
-}
-
-.circle-around {
-  position: relative;
-}
-
-.circle-around::before {
-  position: absolute;
-  content: '';
-  display: inline-block;
-  height: 55px;
-  width: 55px;
-  border-radius: 50%;
-  bottom: 50%;
-  right: 50%;
-  transform: translate(50%, 50%);
-
-  border: currentColor solid 2px;
 }
 
 /* ** /main ** */
