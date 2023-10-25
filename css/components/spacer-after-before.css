@@ -6,9 +6,10 @@
   justify-content: center;
 }
 
-/* .spacer-star:nth-child(1) {
-  padding: 0 20px;
-} */
+.spacer-star > * {
+  padding: 0 1.875rem;
+  font-size: 2rem;
+}
 
 .spacer-star::before,
 .spacer-star::after {
