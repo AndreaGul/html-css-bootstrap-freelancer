@@ -32,7 +32,6 @@
 
 .circle-around {
   position: relative;
-  background-color: red;
 }
 
 .circle-around::before {
